@@ -1,0 +1,22 @@
+<% include ../partials/header %>
+<div class="row">
+    <div class="col-md-4">
+        <h1><%= user.firstName + " " + user.lastName %></h1>
+        <div class="thumbnail">
+            <img src="<%= user.picture %>" alt="user profile picture">
+        </div>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor delectus voluptate nulla magnam enim impedit. Obcaecati dignissimos asperiores consequuntur nisi incidunt quae, nobis similique laudantium. Sapiente earum ut incidunt neque!
+    </div>
+    <div class="col-md-8">
+        <h3><%= user.username %>'s registered campgrounds:</h3>
+        <ul>
+           <% campgrounds.forEach(function(campground){ %>
+               <li><a href="/campgrounds/<%= campground.id %>"><%= campground.name %></a></li>
+           <% }); %> 
+       </ul>
+        <% if(currentUser && currentUser._id.equals(user.id)) { %>
+            <a class="btn btn-primary btn-sm" href="/campgrounds/new">Create more campgrounds</a>
+        <% } %>
+    </div>
+</div>
+<% include ../partials/footer %>
