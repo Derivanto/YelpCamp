@@ -4,12 +4,12 @@
 Udemy online course project.
 
 #### Features: 
-&nbsp; &nbsp; &nbsp; home page with slideshow images 
-&nbsp; &nbsp; &nbsp; authentication 
-&nbsp; &nbsp; &nbsp; add/edit/delete campgrounds and comments 
-&nbsp; &nbsp; &nbsp; flash messages 
-&nbsp; &nbsp; &nbsp; google maps api 
-&nbsp; &nbsp; &nbsp; admin/role rights 
+&nbsp; &nbsp; &nbsp; home page with slideshow image  
+&nbsp; &nbsp; &nbsp; authentication  
+&nbsp; &nbsp; &nbsp; add/edit/delete campgrounds and comments  
+&nbsp; &nbsp; &nbsp; flash messages  
+&nbsp; &nbsp; &nbsp; google maps api  
+&nbsp; &nbsp; &nbsp; admin/role rights  
 &nbsp; &nbsp; &nbsp; user profile
 
 
@@ -32,5 +32,5 @@ Using NodeJS + Bootstrap
     }
 
 
-C9 workspace - https://ide.c9.io/derivanto/webdev 
+C9 workspace - https://ide.c9.io/derivanto/webdev  
 live preview - https://shielded-beyond-48770.herokuapp.com/ (old version)
