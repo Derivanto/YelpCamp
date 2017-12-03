@@ -3,7 +3,7 @@ YelpCamp
 Udemy online course project.
 
 Features:
-    home page with slideslow images
+    home page with slideshow images
     authentication
     add/edit/delete campgrounds and comments
     flash messages
